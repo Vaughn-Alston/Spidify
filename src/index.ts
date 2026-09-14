@@ -7,7 +7,7 @@ console.log(designDoc)
 
 
 // The Phase type must have a title and an array of task
-type Phase = {
+type Phase =  {
   title: string
   tasks: string[]
 }
@@ -20,6 +20,7 @@ type Phase = {
 function parsePhases(text: string): Phase[] {
 
  //my assumption is that this is an array of objects holding each phase
+    // it is object phase which will hold many phases
   const phases: Phase[] = []
 
 
@@ -33,8 +34,6 @@ function parsePhases(text: string): Phase[] {
     const trimmedLine = line.trim()
 
     
-
-  console.log(JSON.stringify(trimmedLine))
 
 //This will be what indicates the agent to read from Phase, I can change to be more specific
     if (trimmedLine.startsWith('Phase ')) {

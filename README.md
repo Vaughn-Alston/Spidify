@@ -131,10 +131,15 @@ The minimum supported Node.js version is **[Needs confirmation]** because the re
 ### Installation
 
 ```bash
+firstly you need to clone the repository 
 git clone https://github.com/Vaughn-Alston/Spidify.git
+
+then CD -> change directory into the Spidify folder so you can run the Spidify Packages
 cd Spidify
+
 npm install
-npx expo start
+                  npm install will download the packages in pacakge.json so you can run the spidifiy app
+npx expo startxs
  -> At this point you will be able to run the Spidify App Locally however you need to download 
  the package for the document uploader to work on your end
 

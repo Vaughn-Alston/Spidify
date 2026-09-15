@@ -134,7 +134,22 @@ The minimum supported Node.js version is **[Needs confirmation]** because the re
 git clone https://github.com/Vaughn-Alston/Spidify.git
 cd Spidify
 npm install
+npx expo start
+ -> At this point you will be able to run the Spidify App Locally however you need to download 
+ the package for the document uploader to work on your end
+
+-> 
+ npx expo install expo-document-picker
+
+
+ Now you will be able to run the most current version of our APP
+
+
 ```
+
+
+
+
 
 ### Environment Variables
 

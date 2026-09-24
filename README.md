@@ -79,3 +79,9 @@ starting with `Phase ` and task bullets starting with `- `. It returns a
 Arrays are appropriate while preserving document order. If task lookup or
 duplicate checking becomes important as the project grows, a `Map` or `Set`
 can be added at that boundary later without redesigning the whole app.
+
+<img width="686" height="1288" alt="image" src="https://github.com/user-attachments/assets/9e64b2ab-3037-4705-a1f7-e2a9402efdf9" />
+
+
+
+

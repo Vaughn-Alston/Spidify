@@ -1,6 +1,4 @@
 appId: com.vaughn.spidify
 ---
----
 - launchApp
 - assertVisible: "Spidify"
-- tapOn : "Spidify"

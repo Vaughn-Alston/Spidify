@@ -6,3 +6,5 @@ dist/
 .expo
 ios
 android
+mobile/.expo/dev/logs/start.log
+mobile/.expo/dev/logs/start.log

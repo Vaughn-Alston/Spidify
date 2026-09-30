@@ -39,7 +39,59 @@ npm install
 npx expo start
 
 
-if the app isnt working then run 
+## Maestro Automated Testing Frame work
+
+Spidify Maestro E2E Setup
+
+1. Clone the repository
+
+2. Install project dependencies
+   npm install
+
+3. Install Maestro once on your computer
+   brew install maestro
+
+4. Open an iOS Simulator
+
+5. Build + install the native Spidify app
+
+Run in your terminal  --> npm run ios:local
+
+→ builds Spidify as its own native iOS app ⟶ build and install my actual app on the simulator
+→ installs Spidify.app onto the simulator
+→ launches it
+```
+<img width="500" height="750" alt="Screenshot iPhone 18 Pro 09-29-2026 at 5 48 08 PM" src="https://github.com/user-attachments/assets/d22050cd-f534-42d3-9a9e-ecd94c0fd640" />
+```
+
+
+6. Leave Spidify installed on the simulator
+
+7. Run the Maestro E2E tests
+   npm run e2e
+   in your terminal run -->  maestro test .maestro/contacts.yaml
+
+
+
+
+Important:
+npm install does NOT install the Spidify native app.
+
+The native app must already exist on the simulator before Maestro can test it.
+
+You normally only need to rebuild with:
+npm run ios:local
+
+when:
+• setting up the project for the first time
+• native configuration changes
+• native dependencies change
+• the app was removed from the simulator
+
+
+if the app isnt working when running npx expo start 
+
+Do the following: 
 
 npx expo start --clear
 
@@ -80,7 +132,11 @@ Arrays are appropriate while preserving document order. If task lookup or
 duplicate checking becomes important as the project grows, a `Map` or `Set`
 can be added at that boundary later without redesigning the whole app.
 
-<img width="686" height="1288" alt="image" src="https://github.com/user-attachments/assets/9e64b2ab-3037-4705-a1f7-e2a9402efdf9" />
+<img width="500" height="900" alt="image" src="https://github.com/user-attachments/assets/9e64b2ab-3037-4705-a1f7-e2a9402efdf9" />
+
+
+
+
 
 
 

@@ -159,3 +159,62 @@
 {"_e":"metro:bundling:progress","_t":1790220225881,"id":"7","progress":0,"total":1,"current":0}
 {"_e":"metro:bundling:done","_t":1790220225906,"id":"7","total":1,"ms":24.739166}
 {"_e":"metro:client_log","_t":1790220226149,"level":"warn","data":["SafeAreaView has been deprecated and will be removed in a future release. Please use 'react-native-safe-area-context' instead. See https://github.com/AppAndFlow/react-native-safe-area-context"]}
+{"_e":"root:init","_t":1790808831603,"format":"v0-jsonl","version":"57.0.27"}
+{"_e":"env:mode","_t":1790808831603,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1790808831604,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1790808831810,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../../../app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1790808832041,"serverRoot":"../../..","projectRoot":"../../..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"expo:dev-tools-plugin:load","_t":1790808832166,"plugins":[]}
+{"_e":"metro:instantiate","_t":1790808832435,"atlas":false,"workers":6,"host":"::","port":8081}
+{"_e":"metro:bundling:started","_t":1790808931203,"id":"3","platform":"ios","environment":null,"entry":"index.ts"}
+{"_e":"metro:bundling:progress","_t":1790808931203,"id":"3","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1790808931209,"id":"3","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1790808931308,"id":"3","progress":0.23328242861770557,"total":294,"current":142}
+{"_e":"metro:bundling:progress","_t":1790808931408,"id":"3","progress":0.6641379921733515,"total":562,"current":458}
+{"_e":"metro:bundling:progress","_t":1790808931509,"id":"3","progress":0.999,"total":711,"current":711}
+{"_e":"metro:bundling:done","_t":1790808931543,"id":"3","total":711,"ms":339.865625}
+{"_e":"metro:client_log","_t":1790808931946,"level":"warn","data":["SafeAreaView has been deprecated and will be removed in a future release. Please use 'react-native-safe-area-context' instead. See https://github.com/AppAndFlow/react-native-safe-area-context"]}
+{"_e":"metro:bundling:started","_t":1790809152470,"id":"6","platform":"ios","environment":null,"entry":"index.ts"}
+{"_e":"metro:bundling:progress","_t":1790809152470,"id":"6","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1790809152500,"id":"6","total":1,"ms":29.526625}
+{"_e":"metro:client_log","_t":1790809153240,"level":"warn","data":["SafeAreaView has been deprecated and will be removed in a future release. Please use 'react-native-safe-area-context' instead. See https://github.com/AppAndFlow/react-native-safe-area-context"]}
+{"_e":"metro:server_log","_t":1790809159409,"level":"info","data":["Launching DevTools..."]}
+{"_e":"metro:bundling:started","_t":1790809161121,"id":"a","platform":"ios","environment":null,"entry":"index.ts"}
+{"_e":"metro:bundling:started","_t":1790809459795,"id":"b","platform":"ios","environment":null,"entry":"index.ts"}
+{"_e":"metro:bundling:progress","_t":1790809459795,"id":"b","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1790809459828,"id":"b","total":1,"ms":32.582333}
+{"_e":"metro:client_log","_t":1790809460308,"level":"warn","data":["SafeAreaView has been deprecated and will be removed in a future release. Please use 'react-native-safe-area-context' instead. See https://github.com/AppAndFlow/react-native-safe-area-context"]}
+{"_e":"metro:server_log","_t":1790809466482,"level":"info","data":["Launching DevTools..."]}
+{"_e":"metro:bundling:started","_t":1790809467558,"id":"f","platform":"ios","environment":null,"entry":"index.ts"}
+{"_e":"metro:bundling:started","_t":1790809510993,"id":"g","platform":"ios","environment":null,"entry":"index.ts"}
+{"_e":"metro:bundling:progress","_t":1790809510993,"id":"g","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1790809511022,"id":"g","total":1,"ms":28.982791}
+{"_e":"metro:client_log","_t":1790809511477,"level":"warn","data":["SafeAreaView has been deprecated and will be removed in a future release. Please use 'react-native-safe-area-context' instead. See https://github.com/AppAndFlow/react-native-safe-area-context"]}
+{"_e":"metro:server_log","_t":1790809517729,"level":"info","data":["Launching DevTools..."]}
+{"_e":"metro:bundling:started","_t":1790809519085,"id":"k","platform":"ios","environment":null,"entry":"index.ts"}
+{"_e":"metro:bundling:started","_t":1790809863654,"id":"l","platform":"ios","environment":null,"entry":"index.ts"}
+{"_e":"metro:bundling:progress","_t":1790809863654,"id":"l","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1790809863681,"id":"l","total":1,"ms":26.830333}
+{"_e":"metro:client_log","_t":1790809864180,"level":"warn","data":["SafeAreaView has been deprecated and will be removed in a future release. Please use 'react-native-safe-area-context' instead. See https://github.com/AppAndFlow/react-native-safe-area-context"]}
+{"_e":"metro:server_log","_t":1790809869823,"level":"info","data":["Launching DevTools..."]}
+{"_e":"metro:bundling:started","_t":1790809871204,"id":"p","platform":"ios","environment":null,"entry":"index.ts"}
+{"_e":"metro:bundling:started","_t":1790809901838,"id":"q","platform":"ios","environment":null,"entry":"index.ts"}
+{"_e":"metro:bundling:progress","_t":1790809901839,"id":"q","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1790809901868,"id":"q","total":1,"ms":29.2215}
+{"_e":"metro:bundling:started","_t":1790809901870,"id":"r","platform":"ios","environment":null,"entry":"index.ts"}
+{"_e":"metro:bundling:progress","_t":1790809901870,"id":"r","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1790809901893,"id":"r","total":1,"ms":22.913417}
+{"_e":"metro:bundling:started","_t":1790809901946,"id":"s","platform":"ios","environment":null,"entry":"index.ts"}
+{"_e":"metro:client_log","_t":1790809902128,"level":"warn","data":["SafeAreaView has been deprecated and will be removed in a future release. Please use 'react-native-safe-area-context' instead. See https://github.com/AppAndFlow/react-native-safe-area-context"]}
+{"_e":"metro:bundling:started","_t":1790809905910,"id":"t","platform":"ios","environment":null,"entry":"index.ts"}
+{"_e":"metro:bundling:progress","_t":1790809905910,"id":"t","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1790809905938,"id":"t","total":1,"ms":27.622334}
+{"_e":"metro:bundling:started","_t":1790809905988,"id":"u","platform":"ios","environment":null,"entry":"index.ts"}
+{"_e":"metro:client_log","_t":1790809906140,"level":"warn","data":["SafeAreaView has been deprecated and will be removed in a future release. Please use 'react-native-safe-area-context' instead. See https://github.com/AppAndFlow/react-native-safe-area-context"]}
+{"_e":"metro:bundling:started","_t":1790809973267,"id":"v","platform":"ios","environment":null,"entry":"index.ts"}
+{"_e":"metro:bundling:progress","_t":1790809973267,"id":"v","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1790809973268,"id":"v","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1790809973368,"id":"v","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1790809973490,"id":"v","total":1,"ms":223.322292}
+{"_e":"metro:client_log","_t":1790809973713,"level":"warn","data":["SafeAreaView has been deprecated and will be removed in a future release. Please use 'react-native-safe-area-context' instead. See https://github.com/AppAndFlow/react-native-safe-area-context"]}
+{"_e":"root:init","_t":1790810148135,"format":"v0-jsonl","version":"57.0.27"}

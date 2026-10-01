@@ -36,7 +36,7 @@ export function WorkspaceScreen() {
       <ScrollView contentContainerStyle={styles.container}>
         <View style={styles.header}>
           <Text style={styles.kicker}>Project web / 01</Text>
-          <Text style={styles.title}>Spidify</Text>
+          <Text testID="spidify-title" style={styles.title}>Spidify</Text>
           <Text style={styles.subtitle}>
             Start with one source node. Your project can grow outward from there.
           </Text>
@@ -44,10 +44,11 @@ export function WorkspaceScreen() {
 
         <View style={styles.web}>
           <View style={styles.orbitTop}>
-            <DocumentNode label="Tasks" detail="future node" color="#8d777d" />
+            <DocumentNode id="tasks-node" label="Tasks" detail="future node" color="#8d777d" />
           </View>
           <View style={styles.mainNode}>
             <DocumentNode
+              id="design-document"
               label={attachedDocument ? 'URL connected' : 'Design document'}
               detail={attachedDocument ? 'tap to replace' : 'tap to add URL'}
               color="#eadede"
@@ -56,10 +57,10 @@ export function WorkspaceScreen() {
             />
           </View>
           <View style={styles.orbitLeft}>
-            <DocumentNode label="AI" detail="future node" color="#766579" />
+            <DocumentNode id="ai-node" label="AI" detail="future node" color="#766579" />
           </View>
           <View style={styles.orbitRight}>
-            <DocumentNode label="Issues" detail="future node" color="#947b69" />
+            <DocumentNode id="issues-node" label="Issues" detail="future node" color="#947b69" />
           </View>
           <View style={styles.connectorVertical} />
           <View style={styles.connectorHorizontal} />
@@ -83,6 +84,7 @@ export function WorkspaceScreen() {
             The backend parser will eventually populate this view from the uploaded design document.
           </Text>
           <TouchableOpacity
+            testID="open-phase-results"
             activeOpacity={0.8}
             onPress={() => setShowPhaseResults(true)}
             style={styles.primaryButton}

@@ -72,7 +72,7 @@ export function DocumentUrlModal({
             {error ? <Text style={styles.error}>{error}</Text> : null}
 
             <View style={styles.actions}>
-              <Pressable onPress={onClose} style={styles.secondaryButton}>
+              <Pressable testID="cancel-url" onPress={onClose} style={styles.secondaryButton}>
                 <Text style={styles.secondaryText}>Cancel</Text>
               </Pressable>
               <Pressable onPress={handleSave} style={styles.primaryButton}>

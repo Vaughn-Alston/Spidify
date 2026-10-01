@@ -1,0 +1,17 @@
+appId: com.vaughn.spidify
+---
+- launchApp
+- assertVisible: { id: "spidify-title" }
+- tapOn: { id: "spidify-title" }
+- assertVisible: { id: "design-document" }
+- tapOn: { id: "design-document" }
+- assertVisible: { id: "cancel-url" }
+- tapOn: { id: "cancel-url" }
+- assertVisible: { id: "open-phase-results" }
+- tapOn: { id: "open-phase-results" }
+- assertVisible: { id: "close-phase-results" }
+- tapOn: Close
+
+
+
+

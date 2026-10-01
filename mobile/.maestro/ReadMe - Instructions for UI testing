@@ -1,0 +1,3 @@
+To run this file type out the flow  in the terminal 
+
+ maestro test .maestro/Spidify-User-Flow.yaml

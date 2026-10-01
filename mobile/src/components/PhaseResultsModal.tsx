@@ -30,7 +30,7 @@ export function PhaseResultsModal({
               <Text style={styles.eyebrow}>Parsed structure</Text>
               <Text style={styles.title}>Project phases</Text>
             </View>
-            <Pressable accessibilityRole="button" onPress={onClose} style={styles.closeButton}>
+            <Pressable testID="close-phase-results" accessibilityRole="button" onPress={onClose} style={styles.closeButton}>
               <Text style={styles.closeText}>Close</Text>
             </Pressable>
           </View>

@@ -2,6 +2,7 @@ import React from 'react'
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native'
 
 type DocumentNodeProps = {
+  id: string
   label: string
   detail: string
   color: string
@@ -10,6 +11,7 @@ type DocumentNodeProps = {
 }
 
 export function DocumentNode({
+  id,
   label,
   detail,
   color,
@@ -18,6 +20,7 @@ export function DocumentNode({
 }: DocumentNodeProps) {
   const node = (
     <View
+      testID={onPress ? undefined : id}
       style={[
         styles.outerRing,
         size === 'large' ? styles.largeRing : styles.smallRing,
@@ -38,7 +41,7 @@ export function DocumentNode({
   )
 
   return onPress ? (
-    <TouchableOpacity activeOpacity={0.82} onPress={onPress}>
+    <TouchableOpacity testID={id} activeOpacity={0.82} onPress={onPress}>
       {node}
     </TouchableOpacity>
   ) : (
